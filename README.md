@@ -12,7 +12,7 @@ C MySQL API 활용 연습 및 MySQL 기본 사용법 및 문법 정리
 
 관령 링크 : https://www.youtube.com/watch?v=3qD6zv7thdE  
 ### 클라이언트 설치 및 커넥션 (C MySQL API)
-`gcc -o createdb $(mysql_config --cflags) createdb.c $(mysql_config --libs)` // 컴파일 명령어 
+`gcc -o createdb $(mysql_config --cflags) createdb.c $(mysql_config --libs)` // 컴파일 명령어  
 `sudo apt install default-libmysqlclient-dev` // c 예제를 컴파일 위한 MySQL C 개발 라이브러리 설치
 
 MySQL C API 활용 예제 링크 : https://zetcode.com/db/mysqlc/  
