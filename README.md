@@ -7,9 +7,11 @@ C MySQL API 활용 연습 및 MySQL 기본 사용법 및 문법 정리
 3. `sudo systemctl enable --now mysql.service` // mysql 서버 활성화  
 4. `sudo systemctl status mysql.service` // mysql 서버 상태 확인  
 5. `sudo ufw status` // 서버 포트 상태 확인  
-6. `sudo ufw allow mysql` // mysql 포트 허용  
-7. `sudo mysql -u root -p mysql` // mysql 접속  
-8. `exit` // mysql 접속종료   
+6. `sudo ufw enable` // 방화벽 활성화 하기  
+7. `sudo ufw allow mysql` // mysql 포트 허용  
+8. `sudo ufw allow 7000:8000/tcp` // 7000~8000 포트 tcp 접속 허용  
+9. `sudo mysql -u root -p mysql` // mysql 접속  
+10. `exit` // mysql 접속종료   
 
 관령 링크 : https://www.youtube.com/watch?v=3qD6zv7thdE  
 ### 클라이언트 설치 및 커넥션 (C MySQL API)
